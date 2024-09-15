@@ -64,7 +64,7 @@ This project is a combination of a Python-based Command-Line Interface (CLI) cli
 
 3. Run the CLI client:
     ```bash
-    python cli_client.py
+    python cli.py
     ```
 
 ### Node.js Server Setup
@@ -99,37 +99,37 @@ Run the Python CLI with different commands as shown below.
 
 - **Register**:
     ```bash
-    python cli_client.py register <username> <password>
+    python cli.py register <username> <password>
     ```
 
 - **Login**:
     ```bash
-    python cli_client.py login <username> <password>
+    python cli.py login <username> <password>
     ```
 
 - **Get Weather**:
     ```bash
-    python cli_client.py weather <location>
+    python cli.py weather <location>
     ```
 
 - **Get Forecast**:
     ```bash
-    python cli_client.py forecast <location>
+    python cli.py forecast <location>
     ```
 
 - **View History**:
     ```bash
-    python cli_client.py history
+    python cli.py history
     ```
 
 - **Delete History**:
     ```bash
-    python cli_client.py delete-history <search_id>
+    python cli.py delete-history <search_id>
     ```
 
 - **Update Profile**:
     ```bash
-    python cli_client.py update-profile <new_username> <new_password>
+    python cli.py update-profile <new_username> <new_password>
     ```
 
 ---
